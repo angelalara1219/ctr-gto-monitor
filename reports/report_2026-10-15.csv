@@ -1,0 +1,8 @@
+rule,business_day,customer_id,customer_name,direction,total_usd,txn_count,txn_ids,zips,due_date,note
+CTR - single,2026-10-15,C900,Avery Testwell,cash_in,12500.00,1,T00136,85004,2026-10-30,
+CTR - aggregated,2026-10-15,C901,Jordan Sampleton,cash_in,10700.00,3,T00137 T00138 T00139,85004 85705,2026-10-30,3 transactions aggregated across 2 kiosk(s)
+GTO,2026-10-15,C904,Morgan Mockley,cash_in,2500.00,1,T00143,79901,2026-11-14,Enter MSB0926GTO in CTR Field 45
+GTO,2026-10-15,C905,Quinn Placeholder,cash_in,1000.00,1,T00144,78041,2026-11-14,Enter MSB0926GTO in CTR Field 45
+GTO,2026-10-15,C906,Rowan Synthia,cash_in,10000.00,1,T00145,87102,2026-11-14,Enter MSB0926GTO in CTR Field 45
+Structuring lead - CTR,2026-10-15,C908,Harper Demo,cash_in,29000.00,3,T00147 T00148 T00149,75201 85004,,"3 transactions between $8,000 and $10,000 in 3 days; review for SAR"
+Structuring lead - GTO,2026-10-15,C909,Emerson Testwell,cash_in,2915.00,3,T00150 T00151 T00152,79901,,"3 transactions between $800 and $1,000 in 3 days; review for SAR"
